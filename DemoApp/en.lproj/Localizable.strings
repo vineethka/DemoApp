@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  DemoApp
+
+  Created by Vineeth Aranvindan on 4/23/19.
+  Copyright © 2019 vineeth. All rights reserved.
+*/
+
+"OK_title" = "Ok";
+"capital_heading" = "Capital: ";
+"largest_city_heading" = "Largest City: ";
+"view_heading" = "Photos";

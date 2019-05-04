@@ -1,0 +1,20 @@
+PODS:
+  - DataCache (1.5)
+  - Kingfisher (5.4.0)
+
+DEPENDENCIES:
+  - DataCache
+  - Kingfisher (~> 5.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DataCache
+    - Kingfisher
+
+SPEC CHECKSUMS:
+  DataCache: 8099e01aa35c2fd30f3410aae14ef5a130f6524b
+  Kingfisher: 9c8f2cc6710334e06f32ba2b45e77707d5e2f0c9
+
+PODFILE CHECKSUM: 2788c4c8b8014c49cd9586cb6d1a8cb0fb71fd40
+
+COCOAPODS: 1.6.1

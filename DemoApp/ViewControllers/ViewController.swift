@@ -105,7 +105,7 @@ extension ViewController: UITableViewDataSource {
         if let cell = cell as? CellConfigurable {
             cell.setup(viewModel: rowViewModel)
         }
-        cell.accessoryType = .detailDisclosureButton
+        cell.accessoryType = .disclosureIndicator
         cell.layoutIfNeeded()
         return cell
     }

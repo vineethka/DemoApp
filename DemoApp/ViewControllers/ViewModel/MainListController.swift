@@ -23,10 +23,7 @@ class MainListController {
     }
     
     func refreshData() {
-        DataCache.instance.cleanAll()
-        let cache = ImageCache.default
-        cache.clearMemoryCache()
-        cache.clearDiskCache()
+        apiManager.clearCache()
         self.fetchData()
     }
     

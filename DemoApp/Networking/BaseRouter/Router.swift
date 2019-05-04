@@ -37,7 +37,7 @@ class Router<EndPoint: EndPointType>: NetworkRouter {
     
     private var task: URLSessionTask?
     
-    func request<T: Decodable>(_ route: EndPoint, completion: @escaping (Result<T, APIServiceError>) -> Void) {
+    func request<T: Decodable>(_ route: EndPoint, completion: @escaping (Swift.Result<T, APIServiceError>) -> Void) {
         let session = URLSession.shared
     
         //Read from cache

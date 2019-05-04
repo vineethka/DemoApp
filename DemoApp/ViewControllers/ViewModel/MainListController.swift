@@ -32,7 +32,7 @@ class MainListController {
     
     private func fetchData() {
         self.viewModel.isLoading.value = true
-        apiManager.getStates { [weak self](result) in
+        apiManager.getPhotos { [weak self](result) in
             self?.viewModel.isLoading.value = false
             switch result {
             case .success(let response):

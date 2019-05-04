@@ -11,7 +11,7 @@ import Foundation
 struct PhotosApiManager {
     let router = Router<PhotosApi>()
     
-    func getStates(completion:@escaping (Result<[Photo], APIServiceError>) -> Void) {
+    func getPhotos(completion:@escaping (Result<[Photo], APIServiceError>) -> Void) {
         router.request(.listPhotos) { (result) in
             completion(result)
         }
